@@ -9,7 +9,7 @@ services:
     command:
       - --api.dashboard=true
       - --api.insecure=true
-      - --experimental.plugins.traefik-modsecurity-plugin.modulename=github.com/acouvreur/traefik-modsecurity-plugin
+      - --experimental.plugins.traefik-modsecurity-plugin.modulename=github.com/siabit/traefik-modsecurity-plugin
       - --experimental.plugins.traefik-modsecurity-plugin.version=v1.3.0
       - --providers.docker=true
       - --entrypoints.http.address=:80
